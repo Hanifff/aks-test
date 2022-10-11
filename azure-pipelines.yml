@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: aks-agent
+  name: aks-test-agent
 
 steps:
 - script: echo Hello, world!
