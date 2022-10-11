@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: aks-agent
 
 steps:
 - script: echo Hello, world!
